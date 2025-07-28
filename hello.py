@@ -37,6 +37,7 @@ def github_webhook():
             }), 500
 
     # Ignore other event types gracefully
+    print("Done")
     return jsonify({"msg": "Event ignored"}), 200
 
 
