@@ -4,7 +4,7 @@ from requests.auth import HTTPBasicAuth
 
 app = Flask(__name__)
 
-BAMBOO_URL = "https://5fa1881740fb.ngrok-free.app/rest/api/latest/queue/AUT-AUT"
+BAMBOO_URL = "https://38e8d348eaf4.ngrok-free.app/rest/api/latest/queue/AUT-AUT"
 BAMBOO_USER = "krian"
 BAMBOO_PASS = "krian@1234"
 
