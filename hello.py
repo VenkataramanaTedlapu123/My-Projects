@@ -4,7 +4,6 @@ from requests.auth import HTTPBasicAuth
 
 app = Flask(__name__)
 
-# Bamboo build configuration
 BAMBOO_URL = "https://bf4174fea07f.ngrok-free.app/rest/api/latest/queue/AUT-AUT"
 BAMBOO_USER = "krian"
 BAMBOO_PASS = "krian@1234"
