@@ -32,6 +32,6 @@ def github_webhook():
         return jsonify({"error": "Internal Server Error", "details": str(e)}), 500
 
 if __name__ == "__main__":
-    print("hello world")
+    print("hi world")
     print("How are you")
     app.run(port=5000, debug=True)
